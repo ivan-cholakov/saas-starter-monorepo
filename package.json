@@ -18,7 +18,7 @@
   "repository": "https://github.com/ivan-cholakov/saas-starter-monorepo.git",
   "private": "true",
   "workspaces": [
-    "packages/"
+    "packages/*"
   ],
   "volta": {
     "node": "12.19.0",
