@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "scripty",
+    "test": "scripty",
+    "lint": "scripty",
+    "clean": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
   },
   "keywords": [],
   "author": "Ivan Cholakov <icholakov1@gmail.com>",
@@ -23,6 +29,8 @@
     "@typescript-eslint/parser": "^4.15.2",
     "eslint": "^7.20.0",
     "lerna": "^3.22.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0",
+    "typescript": "^4.1.5"
   }
 }
