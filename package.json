@@ -17,5 +17,11 @@
   "volta": {
     "node": "12.19.0",
     "yarn": "1.22.10"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.20.0",
+    "rimraf": "^3.0.2"
   }
 }
