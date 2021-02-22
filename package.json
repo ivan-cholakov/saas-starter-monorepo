@@ -1,0 +1,21 @@
+{
+  "name": "saas-starter-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ivan Cholakov <icholakov1@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/ivan-cholakov/saas-starter-monorepo.git",
+  "private": "true",
+  "workspaces": [
+    "packages/"
+  ],
+  "volta": {
+    "node": "12.19.0",
+    "yarn": "1.22.10"
+  }
+}
