@@ -1,31 +1,32 @@
 {
   "name": "@saas-starter-monorepo/utils",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "scripty",
+    "api-report": "scripty",
+    "lint": "scripty",
     "clean": "rimraf dist *.tsbuildinfo",
-    "test": "scripty",
-    "lint": "scripty"
-  },
-  "scripty": {
-    "path": "../../scripts/packages"
+    "build": "scripty",
+    "test": "scripty"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.12.17",
-    "@babel/preset-typescript": "^7.12.17",
+    "@babel/preset-env": "^7.12.0",
+    "@babel/preset-typescript": "^7.12.0",
+    "@microsoft/api-documenter": "^7.9.12",
+    "@microsoft/api-extractor": "^7.10.4",
     "@types/date-fns": "^2.6.0",
-    "@types/jest": "^26.0.20",
     "@types/react": "^16.9.52",
-    "jest": "^26.6.3",
     "typescript": "^4.0.3"
   },
   "dependencies": {
     "date-fns": "^2.16.1",
     "react": "^16.14.0"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
   }
 }
